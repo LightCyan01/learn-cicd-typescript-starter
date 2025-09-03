@@ -11,10 +11,6 @@ type APIConfig = {
   filepathRoot: string;
 };
 
-type DBConfig = {
-  url: string | undefined;
-};
-
 export const config: Config = {
   api: {
     port: process.env.PORT,
